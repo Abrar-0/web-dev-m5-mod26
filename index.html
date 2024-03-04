@@ -29,14 +29,14 @@
                     <div class="card-body text-center">
                         <h2 class="card-title justify-center">Triangle</h2>
                         <p class="text-2xl">Area = 0.5 X b X h</p>
-                        <div class="flex">
+                        <div class="flex justify-center">
                             <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="b" id="tri-b">
                             <span class="mx-2 my-auto">cm</span>
                             <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="h" id="tri-h">
                             <span class="ml-2 my-auto">cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area:<span id="tri-area"></span><span> cm<sup>2</sup></span></p>
+                            <p class="text-2xl">Area: <span id="tri-area"></span><span> cm<sup>2</sup></span></p>
                         </div>
                         <div class="card-actions">
                             <button onclick="calcTri()" class="btn btn-primary w-full">Calculate</button>
@@ -45,61 +45,106 @@
                 </div>
                 <!-- Rectangle -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <figure><img src="images/rectangle.png"
+                            alt="Rectangle" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Rectangle</h2>
+                        <p class="text-2xl">Area = w X l</p>
+                        <div class="flex justify-center">
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="w" id="rec-w">
+                            <span class="mx-2 my-auto">cm</span>
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="l" id="rec-l">
+                            <span class="ml-2 my-auto">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="rec-area"></span><span> cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calcRec()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
                 <!-- Parallelogram -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <figure><img src="images/parallelogram.png"
+                            alt="Parallelogram" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Parallelogram</h2>
+                        <p class="text-2xl">Area = b X h</p>
+                        <div class="flex justify-center">
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="b" id="par-b">
+                            <span class="mx-2 my-auto">cm</span>
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="h" id="par-h">
+                            <span class="ml-2 my-auto">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="par-area"></span><span> cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calcPar()" class="btn btn-primary w-full" >Calculate</button>
                         </div>
                     </div>
                 </div>
                 <!-- Rhombus -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <figure><img src="images/rhombus.png"
+                            alt="Rhombus" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Rhombus</h2>
+                        <p class="text-2xl">Area = 0.5 X d<sub>1</sub>X d<sub>2</sub></p>
+                        <div class="flex justify-center">
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="d1" id="rho-d1">
+                            <span class="mx-2 my-auto">cm</span>
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="d2" id="rho-d2">
+                            <span class="ml-2 my-auto">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="rho-area"></span><span> cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calcRho()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
                 <!-- Pentagon -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <figure><img src="images/pentagon.png"
+                            alt="Pentagon" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Pentagon</h2>
+                        <p class="text-2xl">Area = 0.5 X p X b</p>
+                        <div class="flex justify-center">
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="p" id="pen-p">
+                            <span class="mx-2 my-auto">cm</span>
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="b" id="pen-b">
+                            <span class="ml-2 my-auto">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="pen-area"></span><span> cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calcPen()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
                 <!-- Ellipse -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                            alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <figure><img src="images/ellipse.png"
+                            alt="Ellipse" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class="card-title justify-center">Ellipse</h2>
+                        <p class="text-2xl">Area = π X a X b</p>
+                        <div class="flex justify-center">
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="p" id="ell-a">
+                            <span class="mx-2 my-auto">cm</span>
+                            <input class=" w-20 text-2xl p-2 rounded-sm" type="text" placeholder="b" id="ell-b">
+                            <span class="ml-2 my-auto">cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="ell-area"></span><span> cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
